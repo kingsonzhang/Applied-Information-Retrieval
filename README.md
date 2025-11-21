@@ -2,5 +2,7 @@
 
 ```bash
 python -m venv venv
-venv\Scripts\activate
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process
+./venv/Scripts/activate
+pip install -r requirements.txt
 ```
