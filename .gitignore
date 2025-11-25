@@ -4,3 +4,6 @@ venv/
 # Transformed Text
 input-transform/
 inv-index/
+
+# Lucene
+lucene-10.3.2/
