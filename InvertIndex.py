@@ -16,7 +16,7 @@ def create_inverted_index(directory):
             with open(file_path, 'r', encoding='utf-8') as file:
                 print("Processing: " + filename)
                 # Read the words from the file
-                words = file.read().splitlines()
+                words = file.read().split()
 
                 # Dictionary to track occurrences of words in the current file
                 word_positions = defaultdict(list)
